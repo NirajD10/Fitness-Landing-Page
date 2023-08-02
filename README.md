@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="public/Banner.png">
+</p>
+
+
 # Fitness-Landing-Page
 The Fitness Landing Page is a web application designed to fitness business website. I decided to create it using React.js and Pure CSS. The landing page provides a visually appealing and user-friendly, animations interface to display Fitness services, package attracting potential visitors. The landing page is built using modern web technologies and is fully responsive for an optimal viewing experience across devices.
 
