@@ -1,0 +1,118 @@
+.control {
+	border: 0;
+	border-radius: 8px;
+	outline: none;
+	width: 98%;
+	height: 56px;
+	padding-left: 16px;
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 6px;
+	color: #f9f9f9;
+	font-family: inherit;
+	text-align: left;
+	font-size: 1rem;
+	transition: 0.4s;
+}
+
+.login-form {
+	width: 100%;
+	margin: 0;
+	display: grid;
+	overflow: hidden;
+
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.login-form input.control::placeholder {
+	color: #868b94;
+}
+
+.login-form > button.control {
+	cursor: pointer;
+	width: 100%;
+	height: 3.5rem;
+	padding: 0 1em;
+	background: #f35508;
+	color: white;
+	border: 0;
+	font-family: inherit;
+	font-size: 1rem;
+	font-weight: 600;
+	text-align: center;
+	letter-spacing: 0.125em;
+	transition: all 0.375s;
+}
+
+.controls {
+	position: relative;
+}
+
+@keyframes spin {
+	100% {
+		rotate: 1turn;
+	}
+}
+
+.spinner {
+	position: absolute;
+	top: 50%;
+	right: 16px;
+	translate: 0 -50%;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	border: 3px solid #ccc9e1;
+	border-top-color: #f35508;
+	opacity: 0;
+	animation: spin 1s infinite linear;
+}
+
+.spinner.visible {
+	opacity: 1;
+}
+
+.inputdiv {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}
+
+.login-form__textarea {
+	width: 100%;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	padding-top: 1em;
+	margin-bottom: 1em;
+}
+
+/* Responsive */
+@media (width < 500px) {
+	.login-form {
+		margin: 2em 0.5em;
+		width: 95%;
+		grid-column-end: 2;
+	}
+
+	.inputdiv {
+		grid-template-columns: 1fr;
+	}
+
+	.login-form__textarea {
+		grid-column-end: 2;
+	}
+}
+
+@media (581px < width < 766px) {
+	.login-form {
+		margin: 2em 0.5em;
+		width: 95%;
+		grid-column-end: 2;
+	}
+}
+
+@media (1200px <= width <= 1398px) {
+	.login-form {
+		grid-column-end: 2;
+	}
+}

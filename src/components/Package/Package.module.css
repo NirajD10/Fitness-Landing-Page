@@ -1,0 +1,150 @@
+.package-wrapper {
+	width: 100%;
+	background-color: #ddd6c8;
+	color: black;
+	display: flex;
+	justify-content: center;
+	padding: 4em 0;
+}
+
+.package-info__div {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+}
+
+.title {
+	font-size: 5rem;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 200;
+	margin: 0.5em 0;
+}
+
+.package-info__div p {
+	font-weight: 200;
+	font-size: 1.3rem;
+}
+
+hr {
+	height: 2px;
+	background-color: rgb(72, 72, 72);
+	border: none;
+	opacity: 0.6;
+	margin-bottom: 2em;
+}
+
+.package-card__info {
+	padding: 2em 2em 2em 0;
+	margin: 2rem 0;
+	width: 90%;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 50px;
+}
+
+.package-card__cost {
+	display: flex;
+	align-items: center;
+}
+
+.package-card__cost h4 {
+	display: inline-block;
+	font-size: 2.5rem;
+	font-weight: 500;
+}
+
+.package-card__cost p {
+	margin-left: 0.7em;
+	display: inline-block;
+	font-weight: 200;
+}
+
+.package-card__cost-details {
+	margin: 1em 0;
+	width: 90%;
+	display: block;
+}
+
+.package-card__featurelist {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+}
+
+.package-card__featureitem {
+	padding: 1em 0;
+	display: flex;
+	align-items: center;
+}
+
+.package-card__featureitem p {
+	display: inline-block;
+	font-size: 1.2rem;
+	font-weight: 400;
+	margin: 0 1em;
+}
+
+/* Responsive */
+@media (width < 580px) {
+	.title {
+		font-size: 2.2rem;
+	}
+
+	.package-info__div p {
+		font-size: 1rem;
+	}
+
+	.package-card__info {
+		padding: 0.5em 0.5em 0.5em 0;
+		width: 100%;
+		grid-template-columns: 1fr;
+		gap: 30px;
+	}
+
+	.package-card__featureitem p {
+		font-size: 0.8em;
+	}
+
+	.package-card__featureitem {
+		padding: 0.5em 0;
+	}
+}
+
+@media (581px < width < 766px) {
+	.title {
+		font-size: 2.75rem;
+	}
+
+	.package-card__info {
+		padding: 0.5em 0.5em 0.5em 0;
+		width: 100%;
+		grid-template-columns: 1fr;
+		gap: 30px;
+	}
+
+	.package-card__featureitem p {
+		font-size: 1em;
+	}
+
+	.package-card__featureitem {
+		padding: 0.5em 0;
+	}
+}
+
+@media (767px < width < 1199px) {
+	.title {
+		font-size: 2.9rem;
+	}
+
+	.package-card__info {
+		padding: 0.5em 0.5em 0.5em 0;
+		width: 100%;
+		grid-template-columns: 1fr;
+		gap: 30px;
+	}
+
+	.package-card__featureitem p {
+		font-size: 1.3em;
+	}
+}

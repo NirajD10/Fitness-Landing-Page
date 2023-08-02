@@ -1,0 +1,16 @@
+.services-card__title {
+	font-size: 2rem;
+}
+
+/* Responsive */
+@media (width < 500px) {
+	.image {
+		width: 90%;
+	}
+}
+
+@media (767px < width < 1199px) {
+	.image {
+		width: 100%;
+	}
+}

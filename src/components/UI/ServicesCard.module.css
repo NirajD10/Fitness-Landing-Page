@@ -1,0 +1,31 @@
+.scard {
+	padding: 1em 2em;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 25rem;
+	filter: brightness(88%);
+	transition: transform 0.2s ease-in-out;
+}
+
+.scard:hover {
+	transform: translateY(-2%);
+}
+
+.scard img {
+	height: 13rem;
+	object-fit: cover;
+	object-position: center center;
+	filter: brightness(90%);
+	border-radius: 15px;
+	border: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+/* Responsive */
+@media (width < 500px) {
+	.scard {
+		padding: 0.8em 0 0.8em 0.8em;
+		margin: 0 0.625em;
+	}
+}

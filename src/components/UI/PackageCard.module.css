@@ -1,0 +1,13 @@
+.package-card__light {
+	background-color: #f0eae3;
+	color: black;
+	border-radius: 10px;
+	padding: 1em 2em;
+}
+
+.package-card__dark {
+	background-color: #181818;
+	color: white;
+	border-radius: 10px;
+	padding: 1em 2em;
+}

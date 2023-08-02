@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;1,400&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* html,
+body {
+	overscroll-behavior: none;
+} */
+
+:root {
+	background-color: #181818;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}

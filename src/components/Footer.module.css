@@ -1,0 +1,24 @@
+.footer__wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer__wrapper p {
+	font-size: 1.3rem;
+	font-weight: 400;
+	margin-bottom: 1em;
+}
+
+/* Responsive */
+@media (width < 580px) {
+	.footer__wrapper p {
+		font-size: 0.8rem;
+	}
+}
+
+@media (581px < width < 766px) {
+	.footer__wrapper p {
+		font-size: 0.95rem;
+	}
+}
