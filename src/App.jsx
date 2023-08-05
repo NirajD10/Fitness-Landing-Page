@@ -7,11 +7,10 @@ import Services from './components/Services/Services';
 import Package from './components/Package/Package';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer';
-import {ScrollerMotion} from 'scroller-motion';
 
 const App = () => {
 	return (
-		<ScrollerMotion>
+		<React.Fragment>
 			<Navbar />
 			<Hero />
 			<Feature />
@@ -20,7 +19,7 @@ const App = () => {
 			<Package />
 			<Contact />
 			<Footer />
-		</ScrollerMotion>
+		</React.Fragment>
 	);
 };
 
