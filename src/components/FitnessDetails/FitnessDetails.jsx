@@ -11,7 +11,6 @@ const mainTitleAnimation = {
 		opacity: 1,
 		y: 0,
 		transition: {
-			delay: 1,
 			ease: [0.2, 0.65, 0.3, 0.9],
 			duration: 2,
 		},
@@ -25,7 +24,6 @@ const lineanimate = {
 	start: {
 		width: '100%',
 		transition: {
-			delay: 1.1,
 			ease: [0.2, 0.65, 0.3, 0.9],
 			duration: 2,
 		},
@@ -39,7 +37,6 @@ const fadeinAnimate = {
 	visible: {
 		opacity: 1,
 		transition: {
-			delay: 1.2,
 			ease: [0.2, 0.65, 0.3, 0.9],
 			duration: 2,
 		},
@@ -55,7 +52,6 @@ const featureNumAnimate = {
 		opacity: 1,
 		y: 0,
 		transition: {
-			delay: 1.1,
 			ease: [0.2, 0.65, 0.3, 0.9],
 			duration: 2,
 		},
@@ -137,7 +133,7 @@ const FitnessDetails = () => {
 					<motion.img
 						initial={{opacity: 0, y: 30}}
 						whileInView={{opacity: 1, y: 0}}
-						transition={{delay: 1.3, ease: [0.2, 0.65, 0.3, 0.9], duration: 2}}
+						transition={{ease: [0.2, 0.65, 0.3, 0.9], duration: 2}}
 						viewport={{once: true, amount: 0.8}}
 						src='https://images.pexels.com/photos/1552106/pexels-photo-1552106.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 						alt='Fitness Details'

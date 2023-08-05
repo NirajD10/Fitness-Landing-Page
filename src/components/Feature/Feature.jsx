@@ -13,7 +13,6 @@ const mainTitleAnimation = {
 		opacity: 1,
 		y: 0,
 		transition: {
-			delay: 1,
 			ease: [0.2, 0.65, 0.3, 0.9],
 			duration: 2,
 		},
@@ -27,7 +26,6 @@ const lineanimate = {
 	start: {
 		width: '100%',
 		transition: {
-			delay: 1.1,
 			ease: [0.2, 0.65, 0.3, 0.9],
 			duration: 2,
 		},
@@ -37,7 +35,6 @@ const lineanimate = {
 const cardParentAnimate = {
 	visible: {
 		transition: {
-			delay: 3,
 			staggerChildren: 0.8,
 		},
 	},

@@ -8,7 +8,6 @@ import {IconContext} from 'react-icons';
 const titleVariants = {
 	visible: {
 		transition: {
-			delay: 1,
 			staggerChildren: 0.8,
 		},
 	},

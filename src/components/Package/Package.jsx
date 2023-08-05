@@ -14,7 +14,6 @@ const mainTitleAnimation = {
 		opacity: 1,
 		y: 0,
 		transition: {
-			delay: 1,
 			ease: [0.2, 0.65, 0.3, 0.9],
 			duration: 2,
 		},
@@ -28,7 +27,6 @@ const lineanimate = {
 	visible: {
 		width: '100%',
 		transition: {
-			delay: 1.1,
 			ease: [0.2, 0.65, 0.3, 0.9],
 			duration: 2,
 		},
@@ -42,7 +40,6 @@ const fadeinAnimate = {
 	visible: {
 		opacity: 1,
 		transition: {
-			delay: 1,
 			ease: [0.2, 0.65, 0.3, 0.9],
 			duration: 2,
 		},
@@ -58,7 +55,6 @@ const cardreveal = {
 		opacity: 1,
 		y: 20,
 		transition: {
-			delay: 1,
 			type: 'spring',
 			stiffness: 200,
 		},
